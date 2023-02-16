@@ -1,0 +1,31 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  background: var(--header-black);
+  padding: 25px 30px;
+  border-radius: 25px;
+  grid-template-areas:
+    "logo . main conditions faq"
+  ;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.main {
+  grid-area: main;
+}
+
+.header {
+  grid-area: header;
+}
+
+.conditions {
+  grid-area: conditions;
+}
+
+.faq {
+  grid-area: faq;
+}

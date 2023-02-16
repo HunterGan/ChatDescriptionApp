@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+
+  box-sizing: border-box;
+  padding: 10px;
+  color: var(--white);
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.green {
+  background: var(--green-light-button);
+}
+
+.green:hover {
+  background: var(--green);
+  border: 1px solid var(--green-light-button);
+}
+
+.ghost {
+  background: none;
+}
+
+.ghost:hover {
+  color: var(--grey);
+}

@@ -1,0 +1,18 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(----green-dark-card);
+  column-gap: 10px;
+  border-radius: 22px;
+  grid-template-areas:
+    "card description"
+  ;
+}
+
+.card {
+  grid-area: card;
+}
+
+.description {
+  grid-area: description;
+}

@@ -1,0 +1,25 @@
+.p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.xs {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.s {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.m {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.l {
+  font-size: 20px;
+  line-height: 24px;
+}

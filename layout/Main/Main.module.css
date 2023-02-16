@@ -1,0 +1,19 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  background: var(--grey);
+  padding: 50px 30px;
+  border-radius: 22px;
+  grid-template-areas:
+    "about pricing"
+  ;
+}
+
+.about {
+  grid-area: about;
+}
+
+.pricing {
+  grid-area: main;
+}
